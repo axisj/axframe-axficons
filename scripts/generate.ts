@@ -23,6 +23,8 @@ export function generate() {
     let tmpl = fs.readFileSync(path.join('src/common/component.tmpl'), {
       encoding: 'utf-8',
     });
+
+    if (!fnm.endsWith('.svg')) return;
     const reactFileName = projectName + pascalCase(fnm.replace('.svg', ''));
 
     svgContents = svgContents.replace(/fill-opacity=/g, 'fillOpacity=');
