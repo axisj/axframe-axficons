@@ -12,7 +12,7 @@
     "clean": "rimraf node_modules/ package-lock.json && npm cache clean -f && npm i",
     "build:es5": "rimraf ./dist/commonjs && tsc --p tsconfigs/tsconfig.es5.json",
     "build:es6": "rimraf ./dist/es6 && tsc --p tsconfigs/tsconfig.es6.json",
-    "build": "npm run generate && npm run build:es5 && npm run build:es6 && ncp ./src/styles.css ./dist/styles.css",
+    "build": "npm run generate && npm run build:es5 && npm run build:es6",
     "prepublishOnly": "npm run build && build-storybook && gh-pages -d storybook-static"
   },
   "lint-staged": {
