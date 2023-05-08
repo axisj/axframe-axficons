@@ -1,6 +1,6 @@
 {
   "name": "@axframe/axficons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://axisj.github.io/axframe-axficons",
   "repository": "https://github.com/axisj/axframe-axficons",
   "jsnext:main": "dist/es6/index.js",
