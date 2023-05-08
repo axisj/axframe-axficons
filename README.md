@@ -1,7 +1,7 @@
 # @axframe/axficons
 
-[![NPM version](https://img.shields.io/npm/v/@axframe/axficon.svg?style=flat)](https://npmjs.org/package/@axframe/axficon)
-[![NPM downloads](http://img.shields.io/npm/dm/@axframe/axficon.svg?style=flat)](https://npmjs.org/package/@axframe/axficon)
+[![NPM version](https://img.shields.io/npm/v/@axframe/axficons.svg?style=flat)](https://www.npmjs.com/package/@axframe/axficons)
+[![NPM downloads](http://img.shields.io/npm/dm/@axframe/axficons.svg?style=flat)](https://www.npmjs.com/package/@axframe/axficons)
 
 Convert svg files into tsx files to make icons easy to use in your React based project.
 
