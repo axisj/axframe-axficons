@@ -23,8 +23,6 @@ function AXFIconComponent({
   const width = typeof fontSize === 'string' ? fontSize : fontSize + 'px';
   const height = typeof fontSize === 'string' ? fontSize : fontSize + 'px';
 
-  console.log('secondColor', secondColor);
-
   return (
     <Container
       width={width}

@@ -30,6 +30,7 @@ export function generate() {
     svgContents = svgContents.replace(/fill-opacity=/g, 'fillOpacity=');
     svgContents = svgContents.replace(/fill-rule=/g, 'fillRule=');
     svgContents = svgContents.replace(/clip-rule=/g, 'clipRule=');
+    svgContents = svgContents.replace(/clip-path=/g, 'clipPath=');
     //
     //
     svgContents = svgContents.replace(/"/g, "'");
