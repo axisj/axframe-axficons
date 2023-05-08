@@ -4,7 +4,7 @@ function AXFIconsLayoutDuo(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_2750)'>
+<g clipPath='url(#clip0_7_2750)'>
 <path d='M6 1H1V8H6V1Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M6 12H1V15H6V12Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M15 1H10V4H15V1Z' fill='#FF0000' fillOpacity='0.3'/>

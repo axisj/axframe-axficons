@@ -4,7 +4,7 @@ function AXFIconsGageCircleDuo(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_2296)'>
+<g clipPath='url(#clip0_7_2296)'>
 <path d='M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM8 15C4.1 15 1 11.9 1 8C1 4.1 4.1 1 8 1C11.9 1 15 4.1 15 8C15 11.9 11.9 15 8 15Z' fill='black'/>
 <path d='M12.4 4.4L11.7 3.7L9 6.3C8.7 6.1 8.4 6 8 6C6.9 6 6 6.9 6 8C6 9.1 6.9 10 8 10C9.1 10 10 9.1 10 8C10 7.6 9.9 7.3 9.7 7L12.4 4.4Z' fill='black'/>

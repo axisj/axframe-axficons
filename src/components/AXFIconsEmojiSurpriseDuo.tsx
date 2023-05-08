@@ -4,7 +4,7 @@ function AXFIconsEmojiSurpriseDuo(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_1412)'>
+<g clipPath='url(#clip0_7_1412)'>
 <path d='M14.7 5.9C14.5 6 14.2 6 14 6C12.9 6 12 5.1 12 4C12 3.5 12.2 3 12.5 2.7C11.3 1.6 9.7 1 8 1C4.1 1 1 4.1 1 8C1 11.9 4.1 15 8 15C11.9 15 15 11.9 15 8C15 7.3 14.9 6.5 14.7 5.9ZM8 12C6.9 12 6 11.6 6 11C6 10.4 6.9 10 8 10C9.1 10 10 10.4 10 11C10 11.6 9.1 12 8 12Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M5 8C5.55228 8 6 7.55228 6 7C6 6.44772 5.55228 6 5 6C4.44772 6 4 6.44772 4 7C4 7.55228 4.44772 8 5 8Z' fill='black'/>
 <path d='M11 8C11.5523 8 12 7.55228 12 7C12 6.44772 11.5523 6 11 6C10.4477 6 10 6.44772 10 7C10 7.55228 10.4477 8 11 8Z' fill='black'/>

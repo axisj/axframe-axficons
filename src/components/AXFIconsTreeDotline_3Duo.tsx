@@ -4,7 +4,7 @@ function AXFIconsTreeDotline_3Duo(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_835)'>
+<g clipPath='url(#clip0_7_835)'>
 <path d='M16 6H9V0H6V6H0V9H6V16H9V9H16V6Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M8 0H7V1H8V0Z' fill='black'/>
 <path d='M8 2H7V3H8V2Z' fill='black'/>

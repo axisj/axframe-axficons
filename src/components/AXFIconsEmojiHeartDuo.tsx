@@ -4,7 +4,7 @@ function AXFIconsEmojiHeartDuo(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_1361)'>
+<g clipPath='url(#clip0_7_1361)'>
 <path d='M8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM8 15C4.1 15 1 11.9 1 8C1 4.1 4.1 1 8 1C11.9 1 15 4.1 15 8C15 11.9 11.9 15 8 15Z' fill='black'/>
 <path d='M11 8.5C10.7 8.4 10.5 8.5 10.4 8.8C10 9.8 9.1 10.5 8 10.5C6.9 10.5 6 9.8 5.6 8.8C5.5 8.6 5.3 8.4 5 8.5C4.7 8.6 4.6 8.9 4.7 9.2C5.2 10.6 6.5 11.5 8 11.5C9.5 11.5 10.8 10.6 11.3 9.2C11.4 8.9 11.3 8.6 11 8.5Z' fill='black'/>

@@ -4,7 +4,7 @@ function AXFIconsCategories(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_2632)'>
+<g clipPath='url(#clip0_7_2632)'>
 <path d='M0 0V7H7V0H0ZM6 6H1V1H6V6Z' fill='black'/>
 <path d='M12.5 7C14.4 7 16 5.4 16 3.5C16 1.6 14.4 0 12.5 0C10.6 0 9 1.6 9 3.5V7H12.5ZM10 3.5C10 2.1 11.1 1 12.5 1C13.9 1 15 2.1 15 3.5C15 4.9 13.9 6 12.5 6H10V3.5Z' fill='black'/>
 <path d='M0 9V16H7V9H0ZM6 15H1V10H6V15Z' fill='black'/>

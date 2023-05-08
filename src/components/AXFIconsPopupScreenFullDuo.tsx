@@ -4,7 +4,7 @@ function AXFIconsPopupScreenFullDuo(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_929)'>
+<g clipPath='url(#clip0_7_929)'>
 <path d='M15 1H1V15H15V1Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M0 0V16H16V0H0ZM15 15H1V1H15V15Z' fill='black'/>
 <path d='M12 7H13V3H9V4H12V7Z' fill='black'/>

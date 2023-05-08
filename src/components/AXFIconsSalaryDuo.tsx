@@ -4,7 +4,7 @@ function AXFIconsSalaryDuo(props: AXFIconProps) {
   return (
     <AXFIconComponent {...props}>
       <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g clip-path='url(#clip0_7_2074)'>
+<g clipPath='url(#clip0_7_2074)'>
 <path d='M8.5 4.3C8.2 4.1 7.8 4.1 7.5 4.3L6.2 5H9.7L8.5 4.3Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M14.5 7.7L13 6.9V9L8 12L3 9V6.9L1.5 7.7C1.2 7.9 1 8.2 1 8.6V14C1 14.6 1.4 15 2 15H14C14.6 15 15 14.6 15 14V8.6C15 8.2 14.8 7.9 14.5 7.7Z' fill='#FF0000' fillOpacity='0.3'/>
 <path d='M2.5 5C3.88071 5 5 3.88071 5 2.5C5 1.11929 3.88071 0 2.5 0C1.11929 0 0 1.11929 0 2.5C0 3.88071 1.11929 5 2.5 5Z' fill='#FF0000' fillOpacity='0.3'/>
