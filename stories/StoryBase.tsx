@@ -26,7 +26,7 @@ const defaultMeta: ComponentMeta<typeof Palette> = {
         min: 5,
         max: 40,
       },
-      defaultValue: 32,
+      defaultValue: 20,
     },
     color: {
       name: 'color',
