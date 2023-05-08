@@ -1,0 +1,16 @@
+import * as React from "react";
+import { AXFIconComponent, AXFIconProps } from "../common/AXFIconComponent";
+function AXFIconsStaticsWeeklyDuo(props: AXFIconProps) {
+  return (
+    <AXFIconComponent {...props}>
+      <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<path d='M5 5H4V14H5V5Z' fill='#FF0000' fillOpacity='0.3'/>
+<path d='M13 9H12V14H13V9Z' fill='#FF0000' fillOpacity='0.3'/>
+<path d='M9.9 5.5C10.1 5.6 10.3 5.5 10.5 5.3L12 2.9L13.6 5.3C13.7 5.4 13.9 5.5 14 5.5H14.1C14.3 5.4 14.5 5.2 14.5 5V1C14.5 0.7 14.3 0.5 14 0.5C13.7 0.5 13.5 0.7 13.5 1V3.3L12.4 1.7C12.2 1.4 11.8 1.4 11.6 1.7L10.5 3.3V1C10.5 0.7 10.3 0.5 10 0.5C9.7 0.5 9.5 0.7 9.5 1V5C9.5 5.2 9.6 5.4 9.9 5.5Z' fill='black'/>
+<path d='M14 14V8H11V14H10V10H7V14H6V4H3V14H2V1H1V15H15V14H14ZM4 14V5H5V14H4ZM12 14V9H13V14H12Z' fill='black'/>
+</svg>
+
+    </AXFIconComponent>
+  );
+}
+export { AXFIconsStaticsWeeklyDuo };

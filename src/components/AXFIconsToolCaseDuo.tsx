@@ -1,0 +1,15 @@
+import * as React from "react";
+import { AXFIconComponent, AXFIconProps } from "../common/AXFIconComponent";
+function AXFIconsToolCaseDuo(props: AXFIconProps) {
+  return (
+    <AXFIconComponent {...props}>
+      <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<path d='M12 5H4V13H12V5Z' fill='#FF0000' fillOpacity='0.3'/>
+<path fillRule='evenodd' clipRule='evenodd' d='M14 4H11V3C11 1.9 10.1 1 9 1H7C5.9 1 5 1.9 5 3V4H2C0.9 4 0 4.9 0 6V12C0 13.1 0.9 14 2 14H14C15.1 14 16 13.1 16 12V6C16 4.9 15.1 4 14 4ZM6 3C6 2.4 6.4 2 7 2H9C9.6 2 10 2.4 10 3V4H6V3ZM2 13C1.4 13 1 12.6 1 12V6C1 5.4 1.4 5 2 5H3V13H2ZM4 13V5H12V13H4ZM15 12C15 12.6 14.6 13 14 13H13V5H14C14.6 5 15 5.4 15 6V12Z' fill='black'/>
+<path fillRule='evenodd' clipRule='evenodd' d='M9.8 7.8H9.2V7.2L10.2 6.2C10 6.1 9.8 6 9.5 6C8.7 6 8 6.7 8 7.5C8 7.7 8 7.9 8.1 8.1L7.1 9.1C6.9 9 6.7 9 6.5 9C5.7 9 5 9.7 5 10.5C5 10.8 5.1 11 5.2 11.2L6.2 10.2H6.8V10.8L5.8 11.8C6 11.9 6.2 12 6.5 12C7.3 12 8 11.3 8 10.5C8 10.3 8 10.2 7.9 10.1L9 9C9.2 9 9.3 9 9.5 9C10.3 9 11 8.3 11 7.5C11 7.2 10.9 7 10.8 6.8L9.8 7.8Z' fill='black'/>
+</svg>
+
+    </AXFIconComponent>
+  );
+}
+export { AXFIconsToolCaseDuo };

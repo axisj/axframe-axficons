@@ -1,0 +1,15 @@
+import { getStoryBase, paletteFactory } from './StoryBase';
+import {
+  {{icons}}
+} from '../src';
+
+const base = getStoryBase('');
+export default base;
+
+export const All = paletteFactory();
+All.args = {
+  pageTitle: 'All Icons',
+  icons: [
+    {{icons}}
+  ],
+};

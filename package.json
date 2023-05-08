@@ -1,0 +1,73 @@
+{
+  "name": "@axframe/axficons",
+  "version": "0.1.0",
+  "homepage": "https://github.com/axisj/axframe-axficons",
+  "jsnext:main": "dist/es6/index.js",
+  "module": "dist/es6/index.js",
+  "main": "dist/commonjs/index.js",
+  "scripts": {
+    "prepare-generate": "ts-node scripts/prepareGenerate.ts",
+    "generate": "rimraf ./src/components && ts-node --esm scripts/generate.ts",
+    "storybook": "npm run generate && start-storybook -p 6006",
+    "clean": "rimraf node_modules/ package-lock.json && npm cache clean -f && npm i",
+    "build:es5": "rimraf ./dist/commonjs && tsc --p tsconfigs/tsconfig.es5.json",
+    "build:es6": "rimraf ./dist/es6 && tsc --p tsconfigs/tsconfig.es6.json",
+    "build": "npm run generate && npm run build:es5 && npm run build:es6 && ncp ./src/styles.css ./dist/styles.css",
+    "prepublishOnly": "npm run build && build-storybook && gh-pages -d storybook-static"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@emotion/css": "^11.7.1",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@storybook/addon-actions": "^6.5.5",
+    "@storybook/addon-controls": "^6.5.5",
+    "@storybook/addon-essentials": "^6.5.5",
+    "@storybook/addon-links": "^6.5.5",
+    "@storybook/builder-webpack5": "^6.5.5",
+    "@storybook/manager-webpack5": "^6.5.5",
+    "@storybook/react": "^6.5.5",
+    "@types/node": "16.11.26",
+    "@types/prettier": "^2.4.4",
+    "@types/react": "17.0.39",
+    "@types/rimraf": "^3.0.2",
+    "@types/xml2js": "^0.4.9",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "change-case": "^4.1.2",
+    "directory-tree": "^3.2.0",
+    "eslint": "8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-storybook": "^0.5.6",
+    "fork-ts-checker-webpack-plugin": "^7.2.1",
+    "fuse.js": "^6.5.3",
+    "gh-pages": "^3.2.3",
+    "husky": "^7.0.4",
+    "lint-staged": "^10.2.13",
+    "ncp": "^2.0.0",
+    "prettier": "^2.5.1",
+    "react-toastify": "^8.2.0",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.7",
+    "ts-node": "^10.5.0",
+    "typescript": "4.5.5",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "xml2js": "^0.4.23"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

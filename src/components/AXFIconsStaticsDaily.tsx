@@ -1,0 +1,14 @@
+import * as React from "react";
+import { AXFIconComponent, AXFIconProps } from "../common/AXFIconComponent";
+function AXFIconsStaticsDaily(props: AXFIconProps) {
+  return (
+    <AXFIconComponent {...props}>
+      <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<path d='M14 14V8H11V14H10V10H7V14H6V4H3V14H2V1H1V15H15V14H14ZM4 14V5H5V14H4ZM8 14V11H9V14H8Z' fill='black'/>
+<path d='M11 5.5H12C13.4 5.5 14.5 4.4 14.5 3C14.5 1.6 13.4 0.5 12 0.5H11C10.7 0.5 10.5 0.7 10.5 1V5C10.5 5.3 10.7 5.5 11 5.5ZM11.5 1.5H12C12.8 1.5 13.5 2.2 13.5 3C13.5 3.8 12.8 4.5 12 4.5H11.5V1.5Z' fill='black'/>
+</svg>
+
+    </AXFIconComponent>
+  );
+}
+export { AXFIconsStaticsDaily };

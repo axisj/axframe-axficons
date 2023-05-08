@@ -1,0 +1,21 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "ignorePatterns": [
+    "dist/**",
+    "storybook-static/**"
+  ],
+  "rules": {
+    "react/display-name": 0
+  }
+}
