@@ -1,8 +1,21 @@
 # @axframe/axficons
 
+[![NPM version](https://img.shields.io/npm/v/@axframe/axficon.svg?style=flat)](https://npmjs.org/package/@axframe/axficon)
+[![NPM downloads](http://img.shields.io/npm/dm/@axframe/axficon.svg?style=flat)](https://npmjs.org/package/@axframe/axficon)
+
 Convert svg files into tsx files to make icons easy to use in your React based project.
 
-## Getting Started
+## Usage
+
+```bash
+npm i @axframe/axficons
+```
+
+```tsx
+import { AXFIconsAppEnv } from '../AXFIcons';
+```
+
+## Development
 
 First, run the development server:
 

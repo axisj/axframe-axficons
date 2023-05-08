@@ -1,7 +1,7 @@
 {
   "name": "@axframe/axficons",
   "version": "0.1.1",
-  "homepage": "https://github.com/axisj/axframe-axficons",
+  "homepage": "https://axisj.github.io/axframe-axficons",
   "jsnext:main": "dist/es6/index.js",
   "module": "dist/es6/index.js",
   "main": "dist/commonjs/index.js",
