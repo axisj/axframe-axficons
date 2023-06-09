@@ -1,0 +1,15 @@
+import * as React from "react";
+import { AXFIconComponent, AXFIconProps } from "../common/AXFIconComponent";
+function AXFIconsFileImage(props: AXFIconProps) {
+  return (
+    <AXFIconComponent {...props}>
+      <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<path d='M7 10C7.55228 10 8 9.55228 8 9C8 8.44771 7.55228 8 7 8C6.44772 8 6 8.44771 6 9C6 9.55228 6.44772 10 7 10Z' fill='black'/>
+<path d='M6.9 12.2L8 11L9 12L12 9V13H6L6.9 12.2Z' fill='black'/>
+<path fillRule='evenodd' clipRule='evenodd' d='M10 0C11.7 0 15 1 15 5V16H2V0H10ZM4 14H13V6H4V14Z' fill='black'/>
+</svg>
+
+    </AXFIconComponent>
+  );
+}
+export { AXFIconsFileImage };
