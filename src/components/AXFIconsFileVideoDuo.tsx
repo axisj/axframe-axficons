@@ -1,0 +1,15 @@
+import * as React from "react";
+import { AXFIconComponent, AXFIconProps } from "../common/AXFIconComponent";
+function AXFIconsFileVideoDuo(props: AXFIconProps) {
+  return (
+    <AXFIconComponent {...props}>
+      <svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<path d='M11 3H5V13H11V3Z' fill='#FF0000' fillOpacity='0.3'/>
+<path d='M7 6L10 8L7 10V6Z' fill='black'/>
+<path fillRule='evenodd' clipRule='evenodd' d='M14 14H2V2H14V14ZM12 13H13V12H12V13ZM11 3H5V13H11V3ZM12 10V9H13V10H12ZM12 7H13V6H12V7ZM12 4V3H13V4H12ZM4 9V10H3V9H4ZM4 12H3V13H4V12ZM4 7V6H3V7H4ZM4 3V4H3V3H4Z' fill='black'/>
+</svg>
+
+    </AXFIconComponent>
+  );
+}
+export { AXFIconsFileVideoDuo };
